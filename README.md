@@ -1,24 +1,14 @@
-# README
+CondominioNet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sistema Para os sindicos dos Condominios para ter o controle dos condominos
 
-Things you may want to cover:
+Sistema em Ruby or Rails, PostGresql.
 
-* Ruby version
+Premissas:
+- Condominio Ouro Branco
+- 07 Blocos com 16 Apto cada
+- Cada Apto deve ter: Proprietario, Inquilino(imobiliaria ou Proprietario), Apto Vazio ou Ocupado, taxa de Condominio Pago ou nao(valor pago e valor atual nao pago).
+- Os blocos tem Despesas mensais: Agua, luz, consertos hidraulico e eletrico ou manutenção.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Deve gerar Consultas e relatorios de toda a premissa.
