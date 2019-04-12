@@ -1,0 +1,20 @@
+
+default: &default
+ adapter: postgresql
+  encoding: utf8
+  pool: 5
+  username: <%= ENV['db.username'] %>
+  password: <%= ENV['db.password'] %>
+  host:  <%= ENV['db.host'] %>
+
+development:
+  <<: *default
+  database: condominionet
+
+test:
+  <<: *default
+  database: condominionet
+
+production:
+  <<: *default
+  database: condominionet
